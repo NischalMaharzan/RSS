@@ -14,6 +14,6 @@ for item in items:
     pubDate = item.pubDate.text
     category = item.category.text
     des = item.description.text
-    print(f"{title}, {pubDate}, {category}, {des}, {link}", '#'*50, sep='\n')
+    print(f"Title: {title} \nDate: {pubDate} \nCategory: {category} \nDescription: {des} \nLINK: {link}", "#"*50, sep='\n')
 
 print(f"Total items: {len(items)}")
