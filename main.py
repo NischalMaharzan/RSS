@@ -13,7 +13,6 @@ for item in items:
     print(item.link)
     print(item.pubDate)
     print(item.category)
-    print(item.guid)
     print(item.description)
     print("##################################################")
 
