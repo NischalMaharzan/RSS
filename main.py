@@ -14,7 +14,7 @@ items = soup.find_all("item")
 
 # //DB CONNECTION and established a db session as conn
 conn = database_connection()
-print(conn)
+# print(conn)
 cur = conn.cursor()
 cur.execute("CREATE TABLE articles (id serial PRIMARY KEY, title varchar, link varchar, description varchar);")
 
